@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  background: linear-gradient(to right, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  line-height: 70px;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+.contenedor {
+  width: 550px;
+  height: 190px;
+  margin: 0 auto;
+}
+
+#color {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background-color: rgb(200, 200, 200);
+}
